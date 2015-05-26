@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual Lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+<br />
+<style>
+.head1 a {
+text-align:center;
+text-decoration:none;
+}
+.head2 a {
+text-align:center;
+text-decoration:none;
+}
+.head3 a {
+text-align:center;
+text-decoration:none;
+}
+.desc{
+height:auto;
+}
+.img_container{
+height:200px;
+width:700px;
+}
+.img_container1{
+height:200px;
+width:800px;
+}
+.img_container2{
+height:200px;
+width:950px;
+}
+
+.label_container{
+width:700px;
+height:10px;
+}
+</style>
+<body>
+<div id= "main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	  <div id= "content1">
+        <div class="content_item">
+		  <h1> &nbsp;&nbsp;  	
+Exp-5 Analysis of LTI system response</h1> 
+		  <br />
+		  
+		  <div class="heading">
+		   <ul> 
+		    <li class="head1">
+		  	<a href="Signals and their properties 5(objectives).html"><img src="images/objectives.png" />
+			<h6>Objective</h6>
+			</a></li>
+			<li class="head1">
+		  	<a href="Signal and their properties 5(theory).html"><img src="images/content_1.png" />
+			<h6>Theory</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signal and their properties 5(procedure).html">
+			<img src="images/content_2.png" />
+			<h6>Procedure</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties 5(simulator).html">
+			<img src="images/simulator.png" />
+			<h6>Simulator</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties 5(quiz).html" style="text-decoration:none;">
+			<img src="images/quiz.png" />
+			<h6 style="text-align:center; ">Quiz</h6>
+			</a></li>
+			
+			<li class="head3">
+			<a href="Signals and their properties 5(reference).html">
+			<img src="images/content_6.png" />
+			<h6>Reference</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties 5(download).html">
+			<img src="images/download.png" />
+			<h6>Download</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties 5(video).html">
+			<img src="images/video.png" />
+			<h6>Video</h6>
+			</a></li>
+		  </ul>
+		 </div> 
+		  <div class="desc">
+		 
+<p>&nbsp;</p>
+<h5><a name="link3"></a><a name="link4">&nbsp;<span style="color: rgb(128, 0, 128);"><big>This experiment consists of following sub-experiment whose procedures are given below: </big></span><span style="color: rgb(51, 153, 102);"><big><br>
+</big></span></a></h5>
+
+<p><strong><span style="color: rgb(0, 0, 255);"><big>&nbsp;<em>Exp-5(a) convolution and correlation of two continuous-time signal</em><br>
+</big></span></strong></a></p>
+
+<p>&nbsp;<em><strong><span style="color: rgb(0, 0, 255);"><big>Exp-5(b) convolution and correlation of two discrete-time signal</big></span></strong></em></p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <img alt="" src="images/line.jpg" height="5" width="842" align="absMiddle"></p>
+<p><span style="color: rgb(0, 0, 255);"><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </big></span></p>
+<p><a name="link1"><span style="color: rgb(51, 153, 102);"><big>&nbsp;<em><span style="color: rgb(0, 128, 128);"><strong>Exp-5(a) Convolution and correlation of two continuous-time signal</strong></span></em></big></span></a></p>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p>&nbsp;<big>Run the experiment by pressing "<input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Signal generators generates</big><big> signal <em>x(r)</em> and </big><em><big>h(r)</big></em> <big>based on selection by the up/down selection keys. The default selected signals for <em>x(r)</em> and <em>h(r)</em> are rectangular and triangular pulses respectively. The signals are shown in scope 1 and scope 2 respectively.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The time reversal block reverses the time axis if the boolean control is ON and leave the signal as it is if it is OFF. By default it is in ON state.<br>
+    </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </big><strong><span style="color: rgb(128, 0, 128);"><big><blink>Note:</blink> </big></span></strong><big>With the change of boolean control, the labels of the scopes and that of the meter also change.</big></p>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The time shifter allows the shifting of the signal by <em>&#039; t &#039;</em> seconds to the right. Scope 3 shows the signal <em>x(r)</em> in blue and <em>h(t-r)</em>  in green. </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><em><big>x(r)</big></em><big> and <em>h(t-r)</em> are multiplied by the multiplier block. This waveform is shown in scope 4. <br>
+    </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The meter labeled as &#039; Area under </big><em><big>x(r)h(t-r) </big></em><big>&#039; indicates the area under the curve shown in scope 4 for a particular set value of shift <em>&#039;t&#039;</em>.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The resulting convolution curve (in red) and its trace for </big><big>varying values of shift <em>&#039;t&#039;&nbsp;</em></big><big>(in white) </big><big>are</big><big> shown in scope 5.</big><big> <br>
+    </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Similarly </big><big>when the time reversal block is set OFF, the tracer traces a curve which is the cross-correlation or auto-correlation curve of the signals <em>x(t)</em> and <em>h(t)</em> depending on whether <em>x(t)</em> and <em>h(t)</em> are different or same.</big></p>
+    <span style="color: rgb(128, 0, 128);"><big> </big></span><span style="color: rgb(128, 0, 128);"><big> </big></span></li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Perform the experiment with different combinations of input signal</big><big>s.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>To stop the experiment press the "<input src="images/stop.jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p><a name="link2"><span style="color: rgb(51, 153, 102);"><big><strong><span style="color: rgb(0, 0, 255);">&nbsp;</span><em><span style="color: rgb(0, 128, 128);">Exp-5(b) Convolution and correlation of two discrete-time signal</span></em></strong></big></span></a></p>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Run the experiment by pressing "<input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Signal generators generates</big><big> signal <em>x(r)</em> and </big><em><big>h(r)</big></em> <big>based  on selection by the up/down selection keys. The default selected  signals for <em>x(r) </em>and <em>h(r)</em> are rectangular and triangular pulses respectively. The signals are shown in scope 1 and  scope 2 respectively.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The time reversal block reverses the time axis if the boolean  control is ON and leave the signal as it is if it is OFF. By default it  is in ON state.</big></p>
+    </li>
+</ul>
+<p>&nbsp;<strong><span style="color: rgb(128, 0, 128);"><big><blink></blink></big></span></strong></p>
+<ul type="square">
+    <li>
+    <p><big>The time shifter allows the shifting of the signal by <em>&#039;n&#039;</em> seconds  to the right. Scope 3 shows the signal <em>x(r)</em> in blue and <em>h(n-r)</em> in green. </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><em><big>x(r)</big></em><big> and <em>h(n-r)</em> are multiplied by the multiplier block. This waveform is shown in scope 4. </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The meter labeled as&nbsp; &#039; Area under </big><em><big>x(r)h(n-r)</big></em><big> </big><big>&#039; indicates the area under the curve shown in scope 4 for a particular set value of shift &#039;n&#039;.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The resulting convolution curve (in red) and its trace for </big><big>varying values of shift <em>&#039;n&#039;&nbsp;</em></big><big>(in white) </big><big>are</big><big> shown in scope 5.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Similarly </big><big>when the time reversal block  is set OFF, the tracer traces a curve which is the cross-correlation or  auto-correlation curve of the signals <em>x(r)</em> and <em>h(r)</em> depending on whether  <em>x(r)</em> and <em>h(r)</em> are different or same.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Perform the experiment with different combinations of input signal</big><big>s.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>To stop the experiment press the "<input src="images/stop.jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+		   </div>
+		  </div>
+		 
+	      <div align="center">
+    </div>
+</div>
+</div>
+<div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->   
+</body>
+</html>

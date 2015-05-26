@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual Lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+<br />
+<style>
+.head1 a {
+text-align:center;
+text-decoration:none;
+}
+.head2 a {
+text-align:center;
+text-decoration:none;
+}
+.head3 a {
+text-align:center;
+text-decoration:none;
+}
+.desc{
+height:auto;
+}
+.img_container{
+height:200px;
+width:700px;
+}
+.img_container1{
+height:200px;
+width:800px;
+}
+.img_container2{
+height:200px;
+width:950px;
+}
+
+.label_container{
+width:700px;
+height:10px;
+}
+</style>
+<body>
+<div id= "main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	  <div id= "content1">
+        <div class="content_item">
+		  <h1> &nbsp;&nbsp; Signals and their properties</h1> 
+		  <br />
+		  
+		  <div class="heading">
+		   <ul> 
+		    <li class="head1">
+		  	<a href="Signals and their properties(objectives).html"><img src="images/objectives.png" />
+			<h6>Objective</h6>
+			</a></li>
+			<li class="head1">
+		  	<a href="Signal and their properties(theory).html"><img src="images/content_1.png" />
+			<h6>Theory</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties(procedure).html">
+			<img src="images/content_2.png" />
+			<h6>Procedure</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties(simulator).html">
+			<img src="images/simulator.png" />
+			<h6>Simulator</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties(quiz).html" style="text-decoration:none;">
+			<img src="images/quiz.png" />
+			<h6 style="text-align:center; ">Quiz</h6>
+			</a></li>
+			
+			<li class="head3">
+			<a href="Signals and their properties(reference).html">
+			<img src="images/content_6.png" />
+			<h6>Reference</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties(download).html">
+			<img src="images/download.png" />
+			<h6>Download</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties(video).html">
+			<img src="images/video.png" />
+			<h6>Video</h6>
+			</a></li>
+		  </ul>
+		 </div> 
+		  <div class="desc">
+		 
+<h5><a name="link6"></a><a name="link7"></a><a name="link8"></a><a name="link9"></a><a name="link10"><span style="color: rgb(0, 0, 255);"><big>&nbsp;This experiment consists of following sub experiments whose procedures are given below:</big></span></a></h5>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="#"><em><strong><span style="color: rgb(0, 0, 255);"><big>Exp-1(a) Demo of simple signals</big></span></strong></em></a></p>
+<p>&nbsp;</p>
+<p><a href="#"><em><strong><span style="color: rgb(0, 0, 255);"><big>Exp-1(b) Even and Odd symmetry of signals</big></span></strong></em></a></p>
+<p>&nbsp;</p>
+<p><a href="#"><em><strong><span style="color: rgb(0, 0, 255);"><big>Exp-1(c) Signal matching using transformation</big></span></strong></em></a></p>
+<p>&nbsp;</p>
+<p><a href="#"><em><strong><span style="color: rgb(0, 0, 255);"><big>Exp-1(d) Various properties of Impulse signal</big></span></strong></em></a></p>
+<p>&nbsp;</p>
+<p><a href="#"><em><strong><span style="color: rgb(0, 0, 255);"><big>Exp-1(e) Deme of Complex exponential signal</big></span></strong></em></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: left;"><span style="color: rgb(51, 153, 102);"><big> </big></span><span style="color: rgb(128, 0, 128);"><big>For doing these experiments, go to simulator tab. Click on the appropriate experiment link which you want to perform.</big></span><span style="font-size: small;"><br>
+</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img alt="" src="images/line.jpg" align="absMiddle" height="5" width="842"></p>
+<p>&nbsp;</p>
+
+<p style="text-align: justify;"><a name="link1"><span style="color: rgb(0, 0, 255);"><big>&nbsp;</big><em><strong><big>Exp-1(a) Demo of simple signal</big></strong></em></span></a></p>
+<p style="text-align: justify;">&nbsp;</p>
+<ul type="square">
+    <li>
+    <p style="text-align: justify;"><big>Select a signal from the selection menu.</big></p>
+    </li>
+</ul>
+
+<ul type="square">
+    <li>
+    <p style="text-align: justify;"><big>Run the experiment by pressing the </big><input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25"><big></big> <big>button.</big></p>
+    </li>
+</ul>
+
+<ul type="square">
+    <li>
+    <p style="text-align: justify;"><big>Parameters such as</big> <big>amplitude </big><big>and</big><big> time-shifting can be vary through the appropriate knobs provided.</big></p>
+    </li>
+</ul>
+
+<ul type="square">
+    <li>
+    <p style="text-align: justify;"><big>To stop the experiment press the "<input src="images/stop.jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button.<br>
+    </big></p>
+    </li>
+</ul>
+<p></p>
+<p>&nbsp;</p>
+<p><big><span style="color: rgb(51, 102, 255);"><a name="link2"><em><strong><span style="color: rgb(0, 0, 255);">Exp-1(b) Even and Odd symmetry of signals</span></strong>&nbsp; </em></a></span></big></p>
+<p><big> </big></p>
+<p><big>&nbsp;</big></p>
+<ul type="square">
+    <li>
+    <p><big>This experiment has two objectives which are arranged on two different pages accessible through the tabs.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>To run each of these experiments, press</big><big> "<input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" </big><big>button on the tool bar. For moving to the next page it is not necessary to press the "STOP" button. One can perform the experiment without pressing the "STOP" button. To stop the experiment and go to the next experiment press the</big>&nbsp; "<big><input src="images/stop.jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" </big><big>button on the tool bar of the window.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The first experiment choose the left most tab named "Even/Odd parts". On this page, first select a signal from the selection menu. Press</big><big> "<img alt="" src="images/run.jpg" align="absMiddle" height="23" width="20">" </big><big>button on the front panel. The even and odd parts of the choosen signal are shown in the waveform graphs(scope) on the right hand side of the page.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Different types of signals can be choosen from the selection menu and their even and odd parts will be shown similarly.<br>
+    </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The second experiment is about the even/odd symmetry of signals with algebraic operation.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>Select two signals from the two selection menus. Then select an binary algebraic operator (+/*).<br>
+    </big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The even and odd parts of the resulting signal are shown in the waveform graphs on the right hand side of the page.</big><big><span style="font-size: small;"><br>
+    </span></big></p>
+    </li>
+</ul>
+
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>To  run the experiment press the "<input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button on the experiment page.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big> By  default the second target in the selection menu is choosen.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>The scope shows two signals one(in green colour) is the target signal   and the other(in red colour) is the transformed signal which is to be matched to the given target signal using the appropriate values of different parameters.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: rgb(255, 0, 0);"><strong><big><blink>Warning:</blink></big></strong></span><span style="color: rgb(0, 0, 0);"><big> Please do not use knobs for modifying the parameter values. As that will set the parameter values to small precision float numbers which will make the maching tedious. Instead use&nbsp; the up/down incrementer below the knobs for modifying the parameters.</big></span></p>
+<blockquote>
+<p>&nbsp;</p>
+</blockquote>
+<ul type="square">
+    <li>
+    <p><big>When the match occurs it is indicated by the appearance of a pop up window informing about the same.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<blockquote> </blockquote>
+<ul type="square">
+    <li>
+    <p><big>Select another example from the  selection menu and perform the matching exercise.</big></p>
+    </li>
+</ul>
+<p><span style="font-size: medium;">&nbsp;</span></p>
+<ul type="square">
+    <li>
+    <p><big>Press the "<input src="images/stop.jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button to stop the experiment</big>.</p>
+    </li>
+</ul>
+
+<p>&nbsp;</p>
+<p><a name="link4"><span style="color: rgb(0, 0, 255);"><big>&nbsp;<em><strong>Exp-1(d) Various properties of Impulse signal</strong></em></big></span><br>
+</a></p>
+<p>&nbsp;</p>
+<blockquote></blockquote>
+<ul type="square">
+    <li>
+    <p><big>In this experiment there are three tabs which separately demonstrate the three different objectives of the experiment such as time-scaling/shifting of continuous-time impulse, the time-scaling/shifting of discrete-time impulse and the sampling property of the impulse signal.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<blockquote> </blockquote>
+<ul type="square">
+    <li>
+    <p><big>To run the experiment press the"<input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25"> " button.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<ul type="square">
+    <li>
+    <p><big>For modifying the time-scaling and time-shifting, press the up/down buttons</big>.</p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<blockquote>
+</strong><span style="color: rgb(255, 0, 0);"><strong><big><blink>Warning:</blink></big></strong></span>&nbsp;<big>In case of discrete-time impulse do not type the values directly in window which is showing the&nbsp;value for modification. Instead use the up/down buttons only for modifying the values.</big></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</blockquote>
+<ul type="square">
+    <li>
+    <p><big>After running the experiment you may switch to any tab. Once you have finish   the visit through the experiment tabs, press "<input src="images/stop.jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button on the front panel to "stop" the program.</big></p>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<blockquote><small><big> </big></small></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote><small><big> </big></small></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote><small><big> </big></small></blockquote>
+<ul type="square">
+    <li>
+    <p><big>The parameters (amplitude, time-shift, time-scale) can be modified with help of appropriate knobs as marked.</big></p>
+    </li>
+    <small><big>
+    
+    <p>&nbsp;</p>
+    </big></small></ul>
+    <p><a name="link5"><big><span style="color: rgb(0, 0, 255);">&nbsp;</span><em><strong><span style="color: rgb(0, 0, 255);">Exp-1(e) Demo of Complex exponential signal</span></strong></em></big></a></p>
+    <p>&nbsp;</p>
+    <ul type="square">
+        <li>
+        <p><big>To run the animation press "<input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button on the toolbar of the experiment window.</big></p>
+        </li>
+    </ul>
+    <p>&nbsp;</p>
+    <ul type="square">
+        <li>
+        <p><big>Watch the top left hand side 3D graph showing the unit amplitude complex exponential signal of default frequency of 4 rad/s.</big></p>
+        </li>
+    </ul>
+    <p>&nbsp;</p>
+    <ul type="square">
+        <li>
+        <p><big>Simultaneously the bottom left 3D graph shows the same complex exponential signal in out-of-phase direction.</big></p>
+        </li>
+    </ul>
+    <p>&nbsp;</p>
+    <ul type="square">
+        <li>
+        <p><big>The signals generated by adding and substracting the two complex exponential signals rotating in opposite direction are shown in the top and the bottom 3D graphs on the right hand side.<br>
+        </big></p>
+        </li>
+    </ul>
+    <p>&nbsp;</p>
+    <ul type="square">
+        <li>
+        <p><big>To rerun the animation press again the "<input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button.</big></p>
+        </li>
+        <p>&nbsp;</p>
+    </ul>
+   
+    <ul type="square">
+        <li>
+        <p><big>You can also vary the amplitude and frequency of either of the complex exponential signals, press again </big><big><span style="font-size: small;"><input src="images/run(1).jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25"></span></big> <big>button for rerunning the demo.<br>
+        </big></p>
+        </li>
+    </ul>
+   
+    <ul type="square">
+        <li>
+        <p><big>To stop the experiment press the "<input src="images/stop.jpg" longdesc="undefined" align="absMiddle" height="28" type="image" width="25">" button.</big></p>
+        </li>
+    </ul>
+   
+    <p><strong><span style="color: rgb(128, 0, 128);"><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<blink>Note:</blink> </big></span></strong><span style="color: rgb(0, 0, 0);"><big>The form of the signals shown in the right hand side 3D graphs are not&nbsp; always the real ones unless the selected frequencies are equal. </big></span><big><br>
+    </big></p>
+    <p><small><big> </big></small></p>
+    <p>&nbsp;</p>
+    
+    
+    <p>&nbsp;</p></div></div>
+</div>
+</div>
+		   </div>
+		  </div>
+		 
+	      <div align="center">
+    </div>
+</div>
+</div>
+<div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->   
+</body>
+</html>

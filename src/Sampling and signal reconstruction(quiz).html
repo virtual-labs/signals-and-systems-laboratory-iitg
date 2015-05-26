@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual Lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+<br />
+<style>
+.head1 a {
+text-align:center;
+text-decoration:none;
+}
+.head2 a {
+text-align:center;
+text-decoration:none;
+}
+.head3 a {
+text-align:center;
+text-decoration:none;
+}
+.desc{
+height:auto;
+}
+.img_container{
+height:200px;
+width:700px;
+}
+.img_container1{
+height:200px;
+width:800px;
+}
+.img_container2{
+height:200px;
+width:950px;
+}
+
+.label_container{
+width:700px;
+height:10px;
+}
+.quiz_container{
+margin-left:20px;
+}
+</style>
+<body>
+<div id= "main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	  <div id= "content1">
+        <div class="content_item">
+		  <h1> &nbsp;&nbsp; Sampling and signal reconstruction</h1>
+		  <br />
+		  
+		  <div class="heading">
+		   <ul> 
+		    <li class="head1">
+		  	<a href="Sampling and signal reconstruction (objective).html"><img src="images/objectives.png" />
+			<h6>Objective</h6>
+			</a></li>
+			<li class="head1">
+		  	<a href="Sampling and signal reconstruction(Theory).html"><img src="images/content_1.png" />
+			<h6>Theory</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Sampling and signal reconstruction(procedure).html"><img src="images/content_2.png" />
+			<h6>Procedure</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Sampling and signal reconstruction(simulator).html"><img src="images/simulator.png" />
+			<h6>Simulator</h6>
+			</a></li>
+			<li class="head2">
+               <li class="head2">
+                   <a href="Sampling and signal reconstruction(quiz).html" style="text-decoration:none;"><img src="images/quiz.png"/>
+                   <h6 style="text-align:center; ">Quiz</h6>
+                   </a></li>
+			
+			<li class="head3">
+			<a href="Sampling and signal reconstruction(reference).html"><img src="images/content_6.png" />
+			<h6>Reference</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Sampling and signal reconstruction(download).html"><img src="images/download.png" />
+			<h6>Download</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Sampling and signal reconstruction(video).html"><img src="images/video.png" />
+			<h6>Video</h6>
+			</a></li>
+		  </ul>
+		 </div> 
+		  <div class="desc">
+          <div class="quiz_container">
+        <form>
+<div>
+
+<label>	1)	With increasing sampling frequency fs, the mean square error of the reconstructed output w.r.t the original signal</label><div id="log"></div>
+
+<p>
+<div>
+<input type="radio" name="q1" value="1" id="orange">
+<label for="orange">increases.</label>
+</div>
+<div>
+<input type="radio" name="q1" value="2" id="apple">
+<label for="apple">remains uneffected.</label>
+</div>
+<div>
+<input type="radio" name="q1" value="3" id="orange">
+<label for="orange">almost zero.</label>
+</div>
+<div>
+<input type="radio" name="q1" value="4" id="apple">
+<label for="apple">remains constant after initial decrease.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+
+
+<label>2)	From the observation in exp-4(c) what can you say about the delay introduced in the reconstructed output w.r.t original signal by the first order hold ?</label><div id="log1"></div>
+
+<p>
+<div>
+<input type="radio" name="q2" value="1" id="orange">
+<label for="orange">No delay is introduced</label>
+</div>
+<div>
+<input type="radio" name="q2" value="2" id="apple">
+<label for="apple">A delay of one sample period is introduced</label>
+</div>
+
+<div>
+<input type="radio" name="q2" value="3" id="apple">
+<label for="apple">A delay of two sample periods is introduced</label>
+</div>
+</p>
+<br/>
+
+
+
+
+
+
+
+
+<label>3)	The main cause of aliasing distortion observed in frequency domain in sampling of a continuous time signal is</label><div id="log2"></div>
+
+<p>
+<div>
+<input type="radio" name="q3" value="1" id="orange">
+<label for="orange">the signal spectra being band-limited.</label>
+</div>
+<div>
+<input type="radio" name="q3" value="2" id="apple">
+<label for="apple">the signal spectra being non band-limited.</label>
+</div>
+<div>
+<input type="radio" name="q3" value="3" id="banana">
+<label for="banana">sampling in time domain.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+
+<label>4)	Linear interpolation based reconstruction process</label><div id="log3"></div>
+<p>
+<div>
+<input type="radio" name="q4" value="1" id="orange">
+<label for="orange">maintains the value of the previous sampling instant till next sampling instant.</label>
+</div>
+<div>
+<input type="radio" name="q4" value="2" id="apple">
+<label for="apple">joins the adjacent sampling points by a straight line.</label>
+</div>
+<div>
+<input type="radio" name="q4" value="3" id="banana">
+<label for="banana">joins the adjacent sampling points by a second-order polynomial.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+<label>	5)The role of zero padding in DFT based signal analysis is</label><div id="log4"></div>
+
+<p>
+<div>
+<input type="radio" name="q5" value="1" id="orange">
+<label for="orange">to reduce the aliasing distortion.</label>
+</div>
+<div>
+<input type="radio" name="q5" value="2" id="apple">
+<label for="apple">to increase the frequency resolution</label>
+</div>
+<div>
+<input type="radio" name="q5" value="3" id="banana">
+<label for="banana">to reduce the picket fence effect</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>
+6)	What is over sampling ?</label><div id="log5"></div>
+<p>
+<div>
+<input type="radio" name="q6" value="1" id="orange">
+<label for="orange">Sampling a signal with sampling frequency significantly higher than the bandwidth of the signal being sampled.</label>
+</div>
+<div>
+<input type="radio" name="q6" value="2" id="apple">
+<label for="apple">Sampling a signal with sampling frequency significantly lower than the bandwidth of the signal being sampled.</label>
+</div>
+<div>
+<input type="radio" name="q6" value="3" id="banana">
+<label for="banana">Sampling a signal with sampling frequency significantly higher than twice the bandwidth of the signal being sampled.</label>
+</div>
+<div>
+<input type="radio" name="q6" value="4" id="banana">
+<label for="banana">Sampling a signal with sampling frequency three times higher than the bandwidth of the signal being sampled.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+<label>7)	From the observation in exp-4(c) what can you make out about delay introduce by zero order hold ?</label><div id="log6"></div>
+<p>
+<div>
+<input type="radio" name="q7" value="1" id="orange">
+<label for="orange">Zero</label>
+</div>
+<div>
+<input type="radio" name="q7" value="2" id="apple">
+<label for="apple">One</label>
+</div>
+<div>
+<input type="radio" name="q7" value="3" id="banana">
+<label for="banana">Two</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	8)	What do you mean by under sampling ?</label><div id="log7"></div>
+<p>
+<div>
+<input type="radio" name="q8" value="1" id="orange">
+<label for="orange">Sampling the signal at Nyquist rate.</label>
+</div>
+<div>
+<input type="radio" name="q8" value="2" id="apple">
+<label for="apple">Sampling the signal below the Nyquist rate.</label>
+</div>
+<div>
+<input type="radio" name="q8" value="3" id="banana">
+<label for="banana">Sampling the signal greater than or equal to Nyquist rate.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+<label>	9)	What is the use of anti-aliasing filter ?</label><div id="log8"></div>
+<p>
+<div>
+<input type="radio" name="q9" value="1" id="orange">
+<label for="orange">It is used for reconstruction of a signal.</label>
+</div>
+<div>
+<input type="radio" name="q9" value="2" id="apple">
+<label for="apple">It is used to restrict the bandwidth of a signal to satisfy the sampling theorem and to prevent aliasing.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+10)	A signal can be reconstructed from its samples by using which method?</label><div id="log9"></div>
+<p>
+<div>
+<input type="radio" name="q10" value="1" id="orange">
+<label for="orange">Filtering.</label>
+</div>
+<div>
+<input type="radio" name="q10" value="2" id="apple">
+<label for="apple">Resampling.</label>
+</div>
+<div>
+<input type="radio" name="q10" value="3" id="banana">
+<label for="banana">Auto-correlation.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+11) Computation of DFT involves</label><div id="log10"></div>
+<p>
+<div>
+<input type="radio" name="q11" value="1" id="orange">
+<label for="orange">Sampling in time domain.</label>
+</div>
+<div>
+<input type="radio" name="q11" value="2" id="apple">
+<label for="apple">Sampling in frequency domain.</label>
+</div>
+<div>
+<input type="radio" name="q11" value="3" id="banana">
+<label for="banana">No sampling.</label>
+</div>
+<div>
+<input type="radio" name="q11" value="4" id="banana">
+<label for="banana">Sampling in both time and frequency domain.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+12) What should be done to resolve two very closely spaced sinusoids presents in a signal?</label><div id="log11"></div>
+<p>
+<div>
+<input type="radio" name="q12" value="1" id="orange">
+<label for="orange">Small data length with appropriate zero padding must be done.</label>
+</div>
+<div>
+<input type="radio" name="q12" value="2" id="apple">
+<label for="apple">Length of data sufficiently large should be taken.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<input type="button" id="submit" name="submit" value="submit">
+
+</form>
+</div>
+</div>
+<div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->   
+</body>
+
+<script>
+
+$( "#submit" ).click(function() {
+
+var ans1=$( "input[name=q1]:checked" ).val();
+
+var ans2=$( "input[name=q2]:checked" ).val();
+
+var ans3=$( "input[name=q3]:checked" ).val();
+
+var ans4=$( "input[name=q4]:checked" ).val();
+
+var ans5=$( "input[name=q5]:checked" ).val();
+
+var ans6=$( "input[name=q6]:checked" ).val();
+
+var ans7=$( "input[name=q7]:checked" ).val();
+
+var ans8=$( "input[name=q8]:checked" ).val();
+
+var ans9=$( "input[name=q9]:checked" ).val();
+
+var ans10=$( "input[name=q10]:checked" ).val();
+
+var ans11=$( "input[name=q11]:checked" ).val();
+
+var ans12=$( "input[name=q11]:checked" ).val();
+
+
+var answers = ["1","2","3","2","3","3","1","2","2","1","2","2"];
+
+
+
+if(ans1==answers[0]) {
+
+	$( "#log" ).html( ans1 + " is collect!" );
+	/*$('#log').addClass('right');*/
+	$( "#log" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans1!=answers[0])
+{
+   $( "#log" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans2==answers[1])
+{
+ $( "#log1" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log1" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans2!=answers[1])
+{
+  $( "#log1" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans3==answers[2])
+{
+ $( "#log2" ).html( ans3 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log2" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans3!=answers[2])
+{
+  $( "#log2" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans4==answers[3])
+{
+ $( "#log3" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log3" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans4!=answers[3])
+{
+  $( "#log3" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans5==answers[4])
+{
+ $( "#log4" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log4" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans5!=answers[4])
+{
+  $( "#log4" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans6==answers[5])
+{
+ $( "#log5" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log5" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans6!=answers[5])
+{
+  $( "#log5" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans7==answers[6])
+{
+ $( "#log6" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log6" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans7!=answers[6])
+{
+  $( "#log6" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans8==answers[7])
+{
+ $( "#log7" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log7" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans8!=answers[7])
+{
+  $( "#log7" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans9==answers[8])
+{
+ $( "#log8" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log8" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans9!=answers[8])
+{
+  $( "#log8" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans10==answers[9])
+{
+ $( "#log9" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log9" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans10!=answers[9])
+{
+  $( "#log9" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans11==answers[10])
+{
+ $( "#log10" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log10" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans11!=answers[10])
+{
+  $( "#log10" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans12==answers[11])
+{
+ $( "#log11" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log11" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans12!=answers[11])
+{
+  $( "#log11" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+});
+</script>
+
+</html>

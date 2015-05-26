@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual Lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+<br />
+<style>
+.head1 a {
+text-align:center;
+text-decoration:none;
+}
+.head2 a {
+text-align:center;
+text-decoration:none;
+}
+.head3 a {
+text-align:center;
+text-decoration:none;
+}
+.desc{
+height:auto;
+}
+.img_container{
+height:200px;
+width:700px;
+}
+.img_container1{
+height:200px;
+width:800px;
+}
+.img_container2{
+height:200px;
+width:950px;
+}
+
+.label_container{
+width:700px;
+height:10px;
+}
+</style>
+<body>
+<div id= "main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	  <div id= "content1">
+        <div class="content_item">
+		  <h1> &nbsp;&nbsp; Signals and their properties</h1> 
+		  <br />
+		  
+		  <div class="heading">
+		   <ul> 
+		    <li class="head1">
+		  	<a href="Signals and their properties 5(objectives).html"><img src="images/objectives.png" />
+			<h6>Objective</h6>
+			</a></li>
+			<li class="head1">
+		  	<a href="Signal and their properties 5(theory).html"><img src="images/content_1.png" />
+			<h6>Theory</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signal and their properties 5(procedure).html">
+			<img src="images/content_2.png" />
+			<h6>Procedure</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties 5(simulator).html">
+			<img src="images/simulator.png" />
+			<h6>Simulator</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties 5(quiz).html" style="text-decoration:none;">
+			<img src="images/quiz.png" />
+			<h6 style="text-align:center; ">Quiz</h6>
+			</a></li>
+			
+			<li class="head3">
+			<a href="Signals and their properties 5(reference).html">
+			<img src="images/content_6.png" />
+			<h6>Reference</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties 5(download).html">
+			<img src="images/download.png" />
+			<h6>Download</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties 5(video).html">
+			<img src="images/video.png" />
+			<h6>Video</h6>
+			</a></li>
+		  </ul>
+		 </div> 
+		  <div class="desc">
+		  <p>&nbsp;</p>
+<p>&nbsp;<a href="http://iitg.vlab.co.in/index.php?sub=59&amp;brch=166&amp;sim=877&amp;cnt=1609#link1"><span style="color: rgb(0, 0, 255);"><big>Convolution</big></span></a></p>
+<p>&nbsp;<a href="http://iitg.vlab.co.in/index.php?sub=59&amp;brch=166&amp;sim=877&amp;cnt=1609#link9"><span style="color: rgb(0, 0, 255);"><big>Convolution properties</big></span></a></p>
+<p>&nbsp;<a href="http://iitg.vlab.co.in/index.php?sub=59&amp;brch=166&amp;sim=877&amp;cnt=1609#link2"><big><span style="color: rgb(0, 0, 255);">Correlation</span></big></a><big><br>
+</big></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://iitg.vlab.co.in/index.php?sub=59&amp;brch=166&amp;sim=877&amp;cnt=1609#link3"><big><span style="color: rgb(0, 0, 255);">(a)Cross-correlation</span></big></a></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://iitg.vlab.co.in/index.php?sub=59&amp;brch=166&amp;sim=877&amp;cnt=1609#link4"><span style="color: rgb(0, 0, 255);"><big>(b)Auto-correlation</big></span></a></p>
+<p><a href="http://iitg.vlab.co.in/index.php?sub=59&amp;brch=166&amp;sim=877&amp;cnt=1609#link10"><span style="color: rgb(0, 0, 255);"><big>&nbsp;Properties of Auto-correlation</big></span></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="color: rgb(0, 128, 128);"><span>--&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦   --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦   --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --&nbsp;♦ --</span></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a name="link1"><strong><span style="color: rgb(0, 0, 255);"><big>Convolution:</big></span></strong></a></p>
+<p>&nbsp;</p>
+<p><span style="color: rgb(0, 0, 255);"><big><span style="color: rgb(0, 0, 0);"></span></big></span><big>Convolution is a mathematical operation which can be perform on two signals <em>&#039;f&#039;</em> and <em>&#039;g</em>&#039; to produce a third signal which is typically viewed as the modified version of one of the original signals. A convolution is an integral that express the overlap of one signal <em>&#039;g&#039;</em> as it is shifted over another signal <em>&#039;f&#039;.</em><br>
+</big></p>
+<p><big>Convolution of two signals <em>&#039;f&#039;</em> and<em> &#039;g&#039;</em> over a finite range <em>[0 → t]</em> can be defined as</big></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/equation20.PNG" class="Wirisformula" title="Double click to edit" align="middle"></p>
+<p><big>Here the symbol <em>[f*g](t)</em> denotes the convolution of </big><em><big>&#039;f&#039;</big></em> <big>and <em>&#039;g</em>&#039;. Convolution is more often taken over an infinite range like,</big></p>
+<p><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <img src="images/equation21.PNG" class="Wirisformula" title="Double click to edit" align="middle"></big><big><br>
+</big></p>
+<p><big>&nbsp;The convolution of two discrete time signals <em>f(n)</em> and <em>g(n)</em> over an infinite range can be defined as</big></p>
+<p><big>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="images/equation22.PNG" class="Wirisformula" title="Double click to edit" align="middle">&nbsp; &nbsp;</big><big><br>
+</big></p>
+<p>&nbsp;<big>The convolution of two continuous time signals are shown in the Figure 1.<br>
+</big></p>
+<div style="width:700px; height:200px; margin-left:200px;"><p><big><img alt="" src="images/b.jpg" align="absMiddle" height="159" width="270"></big></p></div>
+<div style="width:700px; height:200px; margin-left:200px;"><p><big><img src="images/arrow.jpg" alt="" align="absMiddle" height="33" width="10"></big></p></div>
+<div style="width:700px; height:200px;margin-left:200px;"><p><img src="images/a.jpg" alt="" align="absMiddle" height="143" width="250"></p></div>
+<div style="width:700px; height:200px; margin-left:200px;"><p> <img src="images/arrow.jpg" alt="" align="absMiddle" height="33" width="10"></p></div>
+<div style="width:700px; height:200px; margin-left:200px;"><p><img alt="" src="images/c.jpg" align="absMiddle" height="158" width="270"></p></div>
+<div style="width:700px; height:200px; margin-left:200px;"><p><img src="images/arrow.jpg" alt="" align="absMiddle" height="33" width="10"></p></div>
+<div style="width:700px; height:200px; margin-left:200px;"><p><img alt="" src="images/e.jpg" align="absMiddle" height="157" width="270"></p></div>
+<div style="width:700px; height:200px; margin-left:200px;"><p><img src="images/arrow.jpg" alt="" align="absMiddle" height="33" width="10"></p></div>
+<div style="width:700px; height:200px; margin-left:200px;"><p><img alt="" src="images/exact.jpg" align="absMiddle" height="154" width="270"></p></div>
+<div style="width:700px; height:200px;margin-left:200px;"><p><img src="images/arrow.jpg" alt="" align="absMiddle" height="33" width="10"></p></div>
+<div style="width:700px; height:200px;margin-left:200px;"><p><img alt="" src="images/g.jpg" align="absMiddle" height="156" width="270"></p></div>
+<div style="width:700px; height:200px;margin-left:200px;"><p><img src="images/arrow.jpg" alt="" align="absMiddle" height="33" width="10"></p></div>
+<div style="width:700px; height:200px;margin-left:200px;"><p><img alt="" src="images/j.jpg" align="absMiddle" height="157" width="270"></p></div>
+<div style="width:700px; height:200px;margin-left:200px;"><p><img src="images/arrow.jpg" alt="" align="absMiddle" height="33" width="10"></p></div>
+<div style="width:700px; height:200px;margin-left:200px;"><p><img alt="" src="images/k.jpg" align="absMiddle" height="157" width="270"></p></div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<big> Fig.1 Convolution of two signals</big><big><br>
+</big></p>
+<p>&nbsp;</p>
+
+<p><a name="link9"><span style="color: rgb(0, 0, 255);"><big><strong>Convolution properties:</strong></big></span></a></p>
+<p>&nbsp;</p>
+<p><big>There are some important properties of convolution that perform on continuous time signal which we have listed below. The commutativity, associativity, distributivity properties are given below.</big><big><br>
+</big><big><br>
+</big></p>
+<p>&nbsp;</p>
+<table style="width: 562px; height: 88px;" align="center" border="1" cellpadding="1" cellspacing="1">
+    <tbody>
+        <tr>
+            <td><em><strong><big>Commutativity</big></strong></em></td>
+            <td><em><strong><big>f(t) * g(t) = g(t) * f(t)</big></strong></em></td>
+        </tr>
+        <tr>
+            <td><em><strong><big>Associativity</big></strong></em></td>
+            <td><strong><em><big>[f(t) * g(t)] * h(t) = f(t) * [g(t) * h(t)]</big></em></strong></td>
+        </tr>
+        <tr>
+            <td><em><strong><big>Distributivity</big></strong></em></td>
+            <td><big><strong><em>f(t) * [g(t) + h(t)]</em></strong></big> <big><strong><em>= f(t) * g(t) + f(t) * h(t)</em></strong></big></td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p><a name="link2"><strong><span style="color: rgb(0, 0, 255);"><big>Correlation:</big></span></strong></a></p>
+<p>&nbsp;</p>
+<p><big>So far in the above discussion we have discussed about the convolution of two continous time signals</big><big> which is used to find the output <em>y(t)</em> of a system.</big><big> Correlation is a mathematical operation that closely resembles convolution. </big><big>Correlation is basically used to compare two signals. Correlation is the measure of the degree </big><big>to</big> <big>which </big><big>two signals are similar. The correlation of two signals is divided into two ways: (i) Cross-correlation, (ii) Auto-correlation.<br>
+</big></p>
+<p><big>&nbsp;</big></p>
+<p>&nbsp;<a name="link3"><strong><big><span style="color: rgb(0, 0, 255);">Cross-correlation:</span></big></strong><big><span style="color: rgb(0, 0, 255);">&nbsp;</span></big></a></p>
+<p>&nbsp;</p>
+<p><big>Cross correlation is a measure of similarity between two waveforms as a function of time gap or delay applied to one of them. The cross correlation between a pair of continuous time signals <em>f(t)</em> and <em>g(t) </em>is given by&nbsp;<em> </em><br>
+</big></p>
+<img src="images/equation44.PNG" class="Wirisformula" title="Double click to edit" align="middle">&nbsp;&nbsp; &nbsp; <big>where &nbsp;&nbsp; </big></p>
+<p><big>The index T and k are the shift parameters for continuous time and discrete time signals respectively. The order of subscripts </big><em><big>&#039;fg</big></em>&#039;&nbsp; <big>indicates that <em>f(t)</em></big> <big>or </big><em><big>f(n) </big></em><big>are the reference sequence in continuous-time and discrete-time respectively that remains unshifted in time whereas the sequence <em>g(t)</em> or <em>g(n)</em> are shifted &#039;&#039; or &#039;<em>k&#039;</em> units in time with respect to <em>f(t)</em> or <em>f(n)</em> respectively.<br>
+</big></p>
+<p><big>If we want to fix <em>g(t)</em></big> <big>and to shift </big><em><big>f(t)</big></em><big>, then the correlation of two sequences can be written as </big></p>
+<p><big><img src="images/equation42.PNG"  align="middle"></big></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/equation43.PNG" align="middle"></big></p>
+<p><big>and similarly for discrete time signal&nbsp;</big></p>
+<p><big>
+ 
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+<p><big>From the above equation(3) we find that the correlation process is essentially the convolution of two data sequence in which one of the sequence has been reversed.</big></p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p><a name="link4"><span style="color: rgb(0, 0, 255);"><big><strong>Auto-correlation:</strong></big></span>&nbsp;</a></p>
+<p>&nbsp;</p>
+<p><big>Auto correlation of a continuous time signal is the correlation of the signal with itself. The auto correlation of a </big><big>continuous time </big><big>signal <em>f(t)</em> is defined as</big></p>
+<p><big>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</big></p>
+<table align="center" border="0" cellpadding="1" cellspacing="1" width="200">
+    <tbody>
+        <tr>
+            <td><big><img src="images/equation39.PNG" class="Wirisformula" title="Double click to edit" align="middle"></big></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>&nbsp;</p>
+<p><span style="color: rgb(0, 0, 255);"><strong><big>Relation to Signal energy and Signal power:</big></strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;<big>The auto-correlation function of a periodic signal is itself a periodic signal with a period the same as that of the original signal.</big></p>
+<p><big>&nbsp;If <em>f(t)</em> is an energy signal, its auto-correlation is<br>
+</big></p>
+<p><big><img src="images/equation40.PNG"  class="Wirisformula" title="Double click to edit" align="middle"></big></p>
+<p><big>for continuous-time and discrete-time respectively which is the average signal power of the signal.<br>
+</big></p>
+<p>&nbsp;</p>
+<p><a name="link10"><span style="color: rgb(0, 0, 255);"><strong><big>Properties of Auto-correlation:</big></strong></span></a></p>
+<p>&nbsp;</p>
+<p><big>The auto-correlation depends on the choice of the amount of shift applied. we can say from the observation that the value of the auto-correlation can never be bigger than it is at zero shift.</big> <big>That is,</big></p>
+<p><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/equation38.PNG" class="Wirisformula" title="Double click to edit" align="middle"></big></p>
+<p><big>It will happen because at a zero shift, the correlation with itself is obviously as large as it can get since the shifted and unshifted versions coincide.</big></p>
+<p>&nbsp;<big>Another property of auto-correlation function is that all auto-correlation functions are even functions (but not all correlation functions). <br>
+</big></p>
+<p><big><img src="images/equation37.PNG" class="Wirisformula" title="Double click to edit" align="middle">be the auto-correlation function of a discrete-time energy signal <em>f[n].</em> Then&nbsp;</big></p>
+
+<p><big>&nbsp;Now let </big><em><big>y[n] = f [n-n<sub>0</sub>]</big></em> . <big>Then</big></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <img src="images/equation36.PNG" class="Wirisformula" title="Double click to edit" align="middle"></p>
+<p style="float:left;"><big>Now we can make a change of variable </big><em><big>q = n-n<sub>0</sub></big></em> <big>. Then</big></p>
+<p><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <img src="images/equation35.PNG" class="Wirisformula" title="Double click to edit" align="middle"></big></p>
+<p>&nbsp;</p>
+<p><big>Another characteristic of auto-correlation function is that the auto-correlation of a sum of sinusoids of different frequencies is the sum of auto-correlation of the individual sinusoids. To demonstrate this idea let a continuous-time power signal <em>f(t)</em> </big><big>be a sum of two sinusoids </big><em><big>f<sub>1</sub></big><big>(t)</big></em><big> and </big><em><big>f<sub>2</sub></big><big>(t)</big></em>, <big>where</big></p>
+<p><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/equation_tan.PNG" class="Wirisformula" title="Double click to edit" align="middle"></big></p>
+<p><big>The auto-correlation of this signal is</big></p>
+<p><big>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/auto_cor1.PNG" class="Wirisformula" title="Double click to edit" align="middle"></big></p>
+<p><big>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="images/auto_cor2.PNG" title="Double click to edit" align="middle"><br>
+</big></p>
+<p><big>&nbsp;Therefore,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img title="Double click to edit" class="Wirisformula" src="images/auto_cor3.PNG" align="middle"></big></p>
+
+<p><big>&nbsp;</big></p></div></div>
+</div>
+</div>
+    	
+
+</td>
+    </tr>
+</table>
+		   </div>
+		  </div>
+		 
+	      <div align="center">
+    </div>
+</div>
+</div>
+<div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->   
+</body>
+</html>

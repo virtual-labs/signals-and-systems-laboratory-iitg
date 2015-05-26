@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual Lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+<br />
+<style>
+.head1 a {
+text-align:center;
+text-decoration:none;
+}
+.head2 a {
+text-align:center;
+text-decoration:none;
+}
+.head3 a {
+text-align:center;
+text-decoration:none;
+}
+
+.desc{
+height:auto;
+}
+
+.video_container{
+margin-left:100px;
+}
+</style>
+<body>
+<div id= "main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	  <div id= "content1">
+        <div class="content_item">
+		  <h1> &nbsp;&nbsp; Signals and their properties</h1> 
+		  <br />
+		  
+		  <div class="heading">
+		   <ul> 
+		    <li class="head1">
+		  	<a href="Signals and their properties 5(objectives).html"><img src="images/objectives.png" />
+			<h6>Objective</h6>
+			</a></li>
+			<li class="head1">
+		  	<a href="Signals and their properties 5(Theory).html"><img src="images/content_1.png" />
+			<h6>Theory</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signal and their properties 5(procedure).html">
+			<img src="images/content_2.png" />
+			<h6>Procedure</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties 5(simulator).html">
+			<img src="images/simulator.png" />
+			<h6>Simulator</h6>
+			</a></li>
+			<li class="head2">
+			<a href="Signals and their properties 5(quiz).html" style="text-decoration:none;">
+			<img src="images/quiz.png" />
+			<h6 style="text-align:center; ">Quiz</h6>
+			</a></li>
+			
+			<li class="head3">
+			<a href="Signals and their properties 5(reference).html">
+			<img src="images/content_6.png" />
+			<h6>Reference</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties 5(download).html">
+			<img src="images/download.png" />
+			<h6>Download</h6>
+			</a></li>
+			<li class="head3">
+			<a href="Signals and their properties 5(video).html">
+			<img src="images/video.png" />
+			<h6>Video</h6>
+			</a></li>
+		  </ul>
+		 </div> 
+		  <div class="desc">
+		  <p><h3>Videos</h3></p>
+   <div class="video_container">
+   <p style="text-align: center;">&nbsp;</p>
+<h3 style="text-align: center;"><em>Convolution and Correlation of two continuous time signal <span style="color: rgb(0, 0, 255);"><big><blink></blink></big></span><br>
+</em></h3>
+<p style="text-align: center;">&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <iframe allowfullscreen="" src="http://www.youtube.com/embed/6nZSPSbTIns" frameborder="0" height="360" width="640"></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 style="text-align: center;"><em><span style="color: rgb(0, 0, 255);"><big><blink></blink></big></span>Convolution and Correlation of two discrete time Signal<span style="color: rgb(0, 0, 255);"><big><blink></blink></big></span></em></h3>
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <iframe allowfullscreen="" src="http://www.youtube.com/embed/01tpozPDnw4?rel=0&amp;hd=1" frameborder="0" height="360" width="640"></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p></div></div>
+               
+</div>
+	  
+		  </div>
+		  
+		  
+	      <div align="center">
+    </div>
+</div>
+</div>
+<div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->   
+</body>
+</html>

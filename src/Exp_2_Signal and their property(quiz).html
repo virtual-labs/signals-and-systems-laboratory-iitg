@@ -1,0 +1,707 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual Lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+<br />
+<style>
+.head1 a {
+text-align:center;
+text-decoration:none;
+}
+.head2 a {
+text-align:center;
+text-decoration:none;
+}
+.head3 a {
+text-align:center;
+text-decoration:none;
+}
+.desc{
+height:auto;
+}
+.img_container{
+height:200px;
+width:700px;
+}
+.img_container1{
+height:200px;
+width:800px;
+}
+.img_container2{
+height:200px;
+width:950px;
+}
+
+.label_container{
+width:700px;
+height:10px;
+}
+</style>
+<body>
+<div id= "main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+    <div id= "content1">
+    <div class="content_item">
+    <h1> &nbsp;&nbsp; Exp-2 System and their property</h1>
+    <br />
+
+    <div class="heading">
+        <ul>
+            <li class="head1">
+                <a href="Exp_2_Signals and their property(objectives).html"><img src="images/objectives.png" />
+                    <h6>Objective</h6>
+                </a></li>
+            <li class="head1">
+                <a href="Exp_2_Signal and their property(theory).html"><img src="images/content_1.png" />
+                    <h6>Theory</h6>
+                </a></li>
+            <li class="head2">
+                <a href="Exp_2_Signal and their property(procedure).html"><img src="images/content_2.png" />
+                    <h6>Procedure</h6>
+                </a></li>
+            <li class="head2">
+                <a href="Exp_2_Signals and their property(simulator).html">
+                    <img src="images/simulator.png" />
+                    <h6>Simulator</h6>
+                </a></li>
+            <li class="head2">
+                <a href="Exp_2_Signal and their property(quiz).html">
+                    <img src="images/quiz.png" />
+                    <h6 style="text-align:center; ">Quiz</h6>
+                </a></li>
+
+            <li class="head3">
+                <a href="Exp_2_Signal and their property(reference).html">
+                    <img src="images/content_6.png" />
+                    <h6>Reference</h6>
+                </a></li>
+            <li class="head3">
+                <a href="Exp_2_Signal and their property(downloads).html">
+                    <img src="images/download.png" />
+                    <h6>Download</h6>
+                </a></li>
+            <li class="head3">
+                <a href="Exp_2_Signal and their property(video).html">
+                    <img src="images/video.png" />
+                    <h6>Video</h6>
+                </a></li>
+        </ul>
+    </div>
+		  <div class="desc">
+		  <form>
+<div>
+
+<label>	1)	A system can be defined by the input output relationship Y(t) = x(2t). The system is</label><div id="log"></div>
+
+<p>
+<div>
+<input type="radio" name="q1" value="1" id="orange">
+<label for="orange">Time-variant</label>
+
+<input type="radio" name="q1" value="2" id="apple">
+<label for="apple">Time-invariant</label>
+</p>
+<br/>
+<br/>
+
+
+
+
+<label>2)	A system is defined as y[n] = x(n)+x(n-1). Is the given system time-variant or time-invariant?</label><div id="log1"></div>
+
+<p>
+<div>
+<input type="radio" name="q2" value="1" id="orange">
+<label for="orange">Time-variant</label>
+
+<input type="radio" name="q2" value="2" id="apple">
+<label for="apple">Time-invariant</label></div>
+</p>
+<br/>
+<br/>
+
+
+
+
+
+
+
+<label>3)	A system is defined as Y(n) = x(-n). Is the given system time-variant or time-invariant?</label><div id="log2"></div>
+
+<p>
+<div>
+<input type="radio" name="q3" value="1" id="orange">
+<label for="orange">Time-variant</label>
+</div>
+<div>
+<input type="radio" name="q3" value="2" id="apple">
+<label for="apple">Time-invariant</label>
+</div>
+<div>
+<input type="radio" name="q3" value="3" id="banana">
+<label for="banana">None of these</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+
+<label>4)	What is a possible value of "p" for which the system to be causal? y[n] = p.x[n+p] +x[n+1+p]+(p+2).x[n+(p+1)^2].</label><div id="log3"></div>
+<p>
+<div>
+<input type="radio" name="q4" value="1" id="orange">
+<label for="orange">p> -1</label>
+</div>
+<div>
+<input type="radio" name="q4" value="2" id="apple">
+<label for="apple">p =-2</label>
+</div>
+<div>
+<input type="radio" name="q4" value="3" id="banana">
+<label for="banana">p=-3</label>
+</div>
+<input type="radio" name="q4" value="4" id="banana">
+<label for="banana">None of these</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+<label>	5) A system is defined as y[n] = a.x[n] + b.x(n-1). Identify the system as causal, non-causal or anti-causal? .	</label><div id="log4"></div>
+
+<p>
+<div>
+<input type="radio" name="q5" value="1" id="orange">
+<label for="orange">Casual</label>
+</div>
+<div>
+<input type="radio" name="q5" value="2" id="apple">
+<label for="apple">Non-casual</label>
+</div>
+<div>
+<input type="radio" name="q5" value="3" id="banana">
+<label for="banana">Anti-casual</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>
+6)	A system is Causal</label><div id="log5"></div>
+<p>
+<div>
+<input type="radio" name="q6" value="1" id="orange">
+<label for="orange">If the output at any time depends only on the values of present input.</label>
+</div>
+<div>
+<input type="radio" name="q6" value="2" id="apple">
+<label for="apple">If the output at any time depends only on the values of the future input.</label>
+</div>
+<div>
+<input type="radio" name="q6" value="3" id="banana">
+<label for="banana">If the output at any time depends only on the values of the present and past input.</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+<label>7)	A system is defined by the input output relationship Y(n) = X(n)+3.X(n+4). Then this system is</label><div id="log6"></div>
+<p>
+<div>
+<input type="radio" name="q7" value="1" id="orange">
+<label for="orange">Casual</label>
+</div>
+<div>
+<input type="radio" name="q7" value="2" id="apple">
+<label for="apple">Non-casual</label>
+</div>
+<div>
+<input type="radio" name="q7" value="3" id="banana">
+<label for="banana">Anti-casual</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	8)	A system is defined by the input-output relationship as Y(n) = X(-n). Identify whether the system is Causal, non-causal or anti-causal</label><div id="log7"></div>
+<p>
+<div>
+<input type="radio" name="q8" value="1" id="orange">
+<label for="orange">Casual</label>
+</div>
+<div>
+<input type="radio" name="q8" value="2" id="apple">
+<label for="apple">Non-casual</label>
+</div>
+<div>
+<input type="radio" name="q8" value="3" id="banana">
+<label for="banana">Anti-casual</label>
+</div>
+</p>
+<br/>
+<br/>
+
+
+<label>	9)	Y(n) = X(n^2), the system is</label><div id="log8"></div>
+<p>
+<div>
+<input type="radio" name="q9" value="1" id="orange">
+<label for="orange">Anti-casual</label>
+</div>
+<div>
+<input type="radio" name="q9" value="2" id="apple">
+<label for="apple">Casual</label>
+</div>
+<div>
+<input type="radio" name="q9" value="3" id="banana">
+<label for="banana">Non-casual</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+10)	A system can be defined as Y(n) = X(n/2). The system is</label><div id="log9"></div>
+<p>
+<div>
+<input type="radio" name="q10" value="1" id="orange">
+<label for="orange">Time-variant.</label>
+</div>
+<div>
+<input type="radio" name="q10" value="2" id="apple">
+<label for="apple">Time-invariant.</label>
+</div>
+<div>
+<input type="radio" name="q10" value="3" id="banana">
+<label for="banana">Non of these</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+11) From causal/non-causal experiment, for system 3 what will be the delay for which the system will be causal ?</label><div id="log10"></div>
+<p>
+<div>
+<input type="radio" name="q11" value="1" id="orange">
+<label for="orange">3</label>
+</div>
+<div>
+<input type="radio" name="q11" value="2" id="apple">
+<label for="apple">5</label>
+</div>
+<div>
+<input type="radio" name="q11" value="3" id="banana">
+<label for="banana">2</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+12) Determine the following system Y(n) =x(n)+ 1/x(n-1) as</label><div id="log11"></div>
+<p>
+<div>
+<input type="radio" name="q12" value="1" id="orange">
+<label for="orange">linear</label>
+</div>
+<div>
+<input type="radio" name="q12" value="2" id="apple">
+<label for="apple">Non-linear</label>
+</div>
+<div>
+<input type="radio" name="q12" value="3" id="banana">
+<label for="banana">Non of these</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+13)A system is defined by the input-output relationship Y(n)= 2.x(n) + 1/x(n-1). The system is</label><div id="log12"></div>
+<p>
+<div>
+<input type="radio" name="q13" value="1" id="orange">
+<label for="orange">linear</label>
+</div>
+<div>
+<input type="radio" name="q13" value="2" id="apple">
+<label for="apple">Non-linear</label>
+</div>
+<div>
+<input type="radio" name="q13" value="3" id="banana">
+<label for="banana">Non of these</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+14)From causal/non-causal experiment, for system 2 what will be the delay for which the system will be causal ?</label><div id="log13"></div>
+<p>
+<div>
+<input type="radio" name="q14" value="1" id="orange">
+<label for="orange">3</label>
+</div>
+<div>
+<input type="radio" name="q14" value="2" id="apple">
+<label for="apple">1</label>
+</div>
+<div>
+<input type="radio" name="q14" value="3" id="banana">
+<label for="banana">4</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+15)A system is said to be linear if it satisfies</label><div id="log14"></div>
+<p>
+<div>
+<input type="radio" name="q15" value="1" id="orange">
+<label for="orange">Homogeneity property.</label>
+</div>
+<div>
+<input type="radio" name="q15" value="2" id="apple">
+<label for="apple">Additivity property.</label>
+</div>
+<div>
+<input type="radio" name="q15" value="3" id="banana">
+<label for="banana">Only (1).</label>
+</div>
+<div>
+<input type="radio" name="q15" value="4" id="banana">
+<label for="banana">Both (1) and (2)</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+16)A system can be defined as the input-output relationship Y(t) = 2.x(t)+3. The system is</label><div id="log15"></div>
+<p>
+<div>
+<input type="radio" name="q16" value="1" id="orange">
+<label for="orange">Linear</label>
+</div>
+<div>
+<input type="radio" name="q16" value="2" id="apple">
+<label for="apple">Non-Linear</label>
+</div>
+<div>
+<input type="radio" name="q16" value="3" id="banana">
+<label for="banana">Non of these</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	
+17)A system 'S' whose input x(t) and output y(t) are related by the relationship y(t) = t.x(t). The system 'S' is</label><div id="log16"></div>
+<p>
+<div>
+<input type="radio" name="q17" value="1" id="orange">
+<label for="orange">Linear</label>
+</div>
+<div>
+<input type="radio" name="q17" value="2" id="apple">
+<label for="apple">Non-Linear</label>
+</div>
+<div>
+<input type="radio" name="q17" value="3" id="banana">
+<label for="banana">Non of these</label>
+</div>
+</p>
+<br/>
+<br/>
+
+<label>	18)A system is defined by the relationship Y(n) = X(2n). The system is</label><div id="log17"></div>
+<p>
+<div>
+<input type="radio" name="q18" value="1" id="orange">
+<label for="orange">Casual</label>
+</div>
+<div>
+<input type="radio" name="q18" value="2" id="apple">
+<label for="apple">Non-casual</label>
+</div>
+<div>
+<input type="radio" name="q18" value="3" id="banana">
+<label for="banana">Anti-casual</label>
+</div>
+</p>
+<br/>
+<br/>
+<input type="button" id="submit" name="submit" value="submit">
+
+</form>
+</div>
+<div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->   
+</body>
+
+<script>
+
+
+
+
+$( "#submit" ).click(function() {
+
+var ans1=$( "input[name=q1]:checked" ).val();
+
+var ans2=$( "input[name=q2]:checked" ).val();
+
+var ans3=$( "input[name=q3]:checked" ).val();
+
+var ans4=$( "input[name=q4]:checked" ).val();
+
+var ans5=$( "input[name=q5]:checked" ).val();
+
+var ans6=$( "input[name=q6]:checked" ).val();
+
+var ans7=$( "input[name=q7]:checked" ).val();
+
+var ans8=$( "input[name=q8]:checked" ).val();
+
+var ans9=$( "input[name=q9]:checked" ).val();
+
+var ans10=$( "input[name=q10]:checked" ).val();
+
+var ans11=$( "input[name=q11]:checked" ).val();
+
+var ans12=$( "input[name=q11]:checked" ).val();
+
+var ans13=$( "input[name=q11]:checked" ).val();
+
+var ans14=$( "input[name=q11]:checked" ).val();
+
+var ans15=$( "input[name=q11]:checked" ).val();
+
+var ans16=$( "input[name=q11]:checked" ).val();
+
+var ans17=$( "input[name=q11]:checked" ).val();
+
+var ans18=$( "input[name=q11]:checked" ).val();
+
+var answers = ["1","2","1","2","1","3","2","3","3","1","2","2","2","1","4","2","1","2"];
+
+
+
+if(ans1==answers[0]) {
+
+	$( "#log" ).html( ans1 + " is collect!" );
+	/*$('#log').addClass('right');*/
+	$( "#log" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans1!=answers[0])
+{
+   $( "#log" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans2==answers[1])
+{
+ $( "#log1" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log1" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans2!=answers[1])
+{
+  $( "#log1" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans3==answers[2])
+{
+ $( "#log2" ).html( ans3 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log2" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans3!=answers[2])
+{
+  $( "#log2" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans4==answers[3])
+{
+ $( "#log3" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log3" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans4!=answers[3])
+{
+  $( "#log3" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans5==answers[4])
+{
+ $( "#log4" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log4" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans5!=answers[4])
+{
+  $( "#log4" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans6==answers[5])
+{
+ $( "#log5" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log5" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans6!=answers[5])
+{
+  $( "#log5" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans7==answers[6])
+{
+ $( "#log6" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log6" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans7!=answers[6])
+{
+  $( "#log6" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans8==answers[7])
+{
+ $( "#log7" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log7" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans8!=answers[7])
+{
+  $( "#log7" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans9==answers[8])
+{
+ $( "#log8" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log8" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans9!=answers[8])
+{
+  $( "#log8" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans10==answers[9])
+{
+ $( "#log9" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log9" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans10!=answers[9])
+{
+  $( "#log9" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans11==answers[10])
+{
+ $( "#log10" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log10" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans11!=answers[10])
+{
+  $( "#log10" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans12==answers[11])
+{
+ $( "#log11" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log11" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans12!=answers[11])
+{
+  $( "#log11" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans13==answers[12])
+{
+ $( "#log12" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log12" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans13!=answers[12])
+{
+  $( "#log12" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans14==answers[13])
+{
+ $( "#log13" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log13" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans14!=answers[13])
+{
+  $( "#log13" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans15==answers[14])
+{
+ $( "#log14" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log14" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans15!=answers[14])
+{
+  $( "#log14" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans16==answers[15])
+{
+ $( "#log15" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log15" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans16!=answers[15])
+{
+  $( "#log15" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans17==answers[16])
+{
+ $( "#log16" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log16" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans17!=answers[16])
+{
+  $( "#log16" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+if(ans18==answers[17])
+{
+ $( "#log17" ).html( ans2 + " is collect!" );
+/* $('#log1').addClass('wrong');*/
+ $( "#log17" ).prepend('<img id="theImg" src="images/tick.gif.jpg" />');
+}
+else if(ans18!=answers[17])
+{
+  $( "#log17" ).prepend('<img id="theImg" src="images/wrong.gif.jpg" />');
+}
+});
+</script>
+
+
+</html>

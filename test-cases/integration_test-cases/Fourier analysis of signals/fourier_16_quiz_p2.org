@@ -8,10 +8,10 @@
   - Processor:i7
 
 * Objective
-  - To view ,take the quiz and then submit the quiz of “Fourier analysis of signals” experiment
+  - To view ,take the quiz and then submit the quiz of â€œFourier analysis of signalsâ€ experiment
 
 * Pre conditions
-  - Refer to first test case  
+  - Refer to first test case [[https://github.com/Virtual-Labs/signals-and-systems-laboratory-iitg/blob/master/test-cases/integration_test-cases/Fourier%20analysis%20of%20signals/fourier_01_usability_smk.org][fourier_01_usability_smk.org]]  
 
 * Post conditions
    - Nil

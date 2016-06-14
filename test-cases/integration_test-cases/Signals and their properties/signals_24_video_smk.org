@@ -11,7 +11,7 @@
   - To view the Video of the "Signals and their properties" experiment
 
 * Pre conditions
-  - Refer to first test case 
+  - Refer to first test case [[https://github.com/Virtual-Labs/signals-and-systems-laboratory-iitg/blob/master/test-cases/integration_test-cases/Signals%20and%20their%20properties/signals_01_usability_smk.org][signals_01_usability_smk.org]] 
 
 * Post conditions
    - Nil

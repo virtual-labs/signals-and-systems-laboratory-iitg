@@ -11,7 +11,7 @@
   - To perform the experiment of the "System and their property" experiment
 
 * Pre conditions
-  - Refer to first test case 
+  - Refer to first test case [[https://github.com/Virtual-Labs/signals-and-systems-laboratory-iitg/blob/master/test-cases/integration_test-cases/System%20and%20their%20property/system_01_usability_smk.org][system_01_usability_smk.org]] 
 
 * Post conditions
    - Nil

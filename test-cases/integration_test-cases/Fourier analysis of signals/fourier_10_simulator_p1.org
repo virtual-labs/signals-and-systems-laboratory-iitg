@@ -11,7 +11,7 @@
   - To perform the experiment of the "Fourier analysis of signals" experiment
 
 * Pre conditions
-  - Refer to first test case 
+  - Refer to first test case [[https://github.com/Virtual-Labs/signals-and-systems-laboratory-iitg/blob/master/test-cases/integration_test-cases/Fourier%20analysis%20of%20signals/fourier_01_usability_smk.org][fourier_01_usability_smk.org]] 
 
 * Post conditions
    - Nil

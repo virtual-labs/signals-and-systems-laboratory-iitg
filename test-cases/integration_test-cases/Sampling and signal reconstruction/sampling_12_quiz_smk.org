@@ -11,7 +11,7 @@
   - To view the Quiz of the "Sampling and signal reconstruction" experiment
 
 * Pre conditions
-  - Refer to first test case 
+  - Refer to first test case [[https://github.com/Virtual-Labs/signals-and-systems-laboratory-iitg/blob/master/test-cases/integration_test-cases/Sampling%20and%20signal%20reconstruction/sampling_01_usability_smk.org][sampling_01_usability_smk.org]]
 
 * Post conditions
    - Nil

@@ -11,7 +11,7 @@
   - To view the Reference of the "Analysis of LTI system response" experiment
 
 * Pre conditions
-  - Refer to first test case 
+  - Refer to first test case [[https://github.com/Virtual-Labs/signals-and-systems-laboratory-iitg/blob/master/test-cases/integration_test-cases/Analysis%20of%20LTI%20system%20response/analysis_01_usability_smk.org][analysis_01_usability_smk.org]] 
 
 * Post conditions
    - Nil

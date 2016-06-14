@@ -1,0 +1,37 @@
+* Author: BIJU DAS
+* Date Created: 02 May 2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7
+
+* Objective
+  - To download the contents of "Download" tab of the "Fourier analysis of signals" experiment
+
+* Pre conditions
+  - Refer to first test case 
+
+* Post conditions
+   - Nil
+
+* Test Steps
+  1. Refer to fourier_23_download_p1.org 
+  2. Click on "Relationship between CTFS and CTFT (for periodic signal)" link
+  3. Click on "Relationship between CTFS and CTFT (for aperiodic signal)" link
+  4. Click on "Relationship between DTFS and DTFT (for periodic signal)" link
+  5. Click on "Relationship between DTFS and DTFT (for aperiodic signal)" link
+  6. Click on "Relationship between CTFT and DTFT" link
+  7. Click on "Relationship between Fourier Methods" link
+
+* Expected result
+  1. Download page should be opened
+  2. Content of "Relationship between CTFS and CTFT (for periodic signal)" should get downloaded.
+  3. Content of "Relationship between CTFS and CTFT (for aperiodic signal)" should get downloaded.
+  4. Content of "Relationship between DTFS and DTFT (for periodic signal)" should get download.
+  5. Content of "Relationship between DTFS and DTFT (for aperiodic signal)" should get downloaded.
+  6. Content of "Relationship between CTFT and DTFT" should get downloaded.
+  7. Content of "Relationship between Fourier Methods" should get downloaded.
+  
+* Review comments

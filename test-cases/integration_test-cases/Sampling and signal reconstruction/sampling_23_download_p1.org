@@ -1,0 +1,35 @@
+* Author: BIJU DAS
+* Date Created: 02 May 2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7
+
+* Objective
+  - To download the contents of "Download" tab of the "Sampling and signal reconstruction" experiment
+
+* Pre conditions
+  - Refer to first test case 
+
+* Post conditions
+   - Nil
+
+* Test Steps
+  1. Refer to sampling_22_download_p1.org 
+  2. Click on "Sampling of band limited signal:Nyquist theorem" link
+  3. Click on "Sampling of non band limited signal:Anti aliasing filter" link
+  4. Click on "Signal reconstruction from its samples" link
+  5. Click on "Frequency domain sampling:DFT" link
+  6. Click on "Spectral analysis using DFT" link
+
+* Expected result
+  1. Download page should be opened
+  2. Content of "Sampling of band limited signal:Nyquist theorem" should get downloaded.
+  3. Content of "Sampling of non band limited signal:Anti aliasing filter" should get download.
+  4. Content of "Signal reconstruction from its samples" should get downloaded.
+  5. Content of "Frequency domain sampling:DFT" should get downloaded.
+  6. Content of "Spectral analysis using DFT" should get downloaded.
+  
+* Review comments

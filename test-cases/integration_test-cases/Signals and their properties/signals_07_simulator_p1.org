@@ -1,0 +1,33 @@
+* Author: BIJU DAS
+* Date Created: 02 May 2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7
+
+* Objective
+  - To perform the experiment of the "Signals and their properties" experiment
+
+* Pre conditions
+  - Refer to first test case 
+
+* Post conditions
+   - Nil
+
+* Test Steps
+  1. Refer to signals_06_simulator_p1.org 
+  2. Click on "Labview Run time Engine(Windows)" link.
+  3. Click on "Download the Experiment .exe file" link
+  4. Click on "Demo of some simple signal" link.
+  5. Extract the zip file and run the application.exe file.										
+
+* Expected result
+  1. Refer to signals_06_simulator_p1.org
+  2. Labview Run Time engine should get downloaded to your machine. Install Labview Run time engine on your machine.
+  3. It should get redirect to the "Download" tab.
+  4. The zip file of "Demo of some simple signal" should get downloaded to your machine.
+  5. The application.exe file should run without any error.  
+
+* Review comments

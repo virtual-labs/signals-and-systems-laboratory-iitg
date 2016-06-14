@@ -1,0 +1,31 @@
+* Author: BIJU DAS
+* Date Created: 02 May 2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7
+
+* Objective
+  - To download the contents of "Download" tab of the "System and their property" experiment
+
+* Pre conditions
+  - Refer to first test case 
+
+* Post conditions
+   - Nil
+
+* Test Steps
+  1. Refer to system_20_download_p1.org 
+  2. Click on "Linearity/Non-linearity property" link
+  3. Click on "Time variant/Invariant property" link
+  4. Click on "Causality/Non-causality property" link
+ 
+* Expected result
+  1. Download page should be opened
+  2. Content of "Linearity/Non-linearity property" should get downloaded.
+  3. Content of "Time variant/Invariant property" should get download.
+  4. Content of "Causality/Non-causality property" should get downloaded.
+   
+* Review comments

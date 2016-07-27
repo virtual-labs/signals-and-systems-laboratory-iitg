@@ -1,0 +1,29 @@
+* Statistics Report
+** Lab Name : signals-and-systems-laboratory-iitg
+** GitHub URL : https://github.com/Virtual-Labs/signals-and-systems-laboratory-iitg
+** Commit ID : 1843571cead0f20b4558877ac896bdc813cf1f69
+** Detailed Statistics : https://github.com/issues
+
+Total number of passed test cases = 116
+
+Total number of defects with S1 severity = 0
+
+Total number of defects with S2 severity = 0
+
+Total number of defects with S3 severity = 0
+
+Total number of failed test cases = 0
+
+|-------------------------------------------------------------------------------------------------------|
+| *S.no  |  Experiment Name                 |  Pass Count  |  S1     |  S2     |  S3     |  Fail Count* |
+|-------------------------------------------------------------------------------------------------------|
+| 1.     |  signals                         |  24          |  0      |  0      |  0      |  0           |
+|-------------------------------------------------------------------------------------------------------|
+| 2.     |  fourier                         |  25          |  0      |  0      |  0      |  0           |
+|-------------------------------------------------------------------------------------------------------|
+| 3.     |  system                          |  22          |  0      |  0      |  0      |  0           |
+|-------------------------------------------------------------------------------------------------------|
+| 4.     |  analysis                        |  21          |  0      |  0      |  0      |  0           |
+|-------------------------------------------------------------------------------------------------------|
+| 5.     |  sampling                        |  24          |  0      |  0      |  0      |  0           |
+|-------------------------------------------------------------------------------------------------------|
